@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OS Naters – Technik & Informatik Projekte</title>
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --text: #1e293b;
+      --muted: #475569;
+      --accent: #0ea5e9;
+      --accent-dark: #0369a1;
+      --border: #e2e8f0;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+      color: var(--text);
+      background: linear-gradient(180deg, #e0f2fe 0%, var(--bg) 35%);
+      line-height: 1.6;
+    }
+
+    header {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 3.5rem 1.25rem 2rem;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(1.8rem, 3.8vw, 3rem);
+      color: var(--accent-dark);
+    }
+
+    .lead {
+      margin: 0.85rem auto 0;
+      max-width: 780px;
+      color: var(--muted);
+      font-size: clamp(1rem, 1.8vw, 1.15rem);
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 1.25rem 3rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1rem;
+    }
+
+    .project-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1rem 1rem 1.15rem;
+      box-shadow: 0 8px 30px rgba(15, 23, 42, 0.06);
+      transition: transform 180ms ease, box-shadow 180ms ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 34px rgba(15, 23, 42, 0.1);
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      color: #075985;
+      background: #e0f2fe;
+      border: 1px solid #bae6fd;
+      border-radius: 999px;
+      padding: 0.2rem 0.6rem;
+      margin-bottom: 0.55rem;
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      margin: 0.15rem 0 0.45rem;
+      color: var(--accent-dark);
+    }
+
+    p {
+      margin: 0;
+      color: var(--text);
+      font-size: 0.96rem;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.9rem;
+      padding: 1.5rem 1rem 2.6rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Projekte der OS Naters – Technik & Informatik</h1>
+    <p class="lead">
+      Unsere Technik- und Informatikgruppe zeigt, wie kreativ, handwerklich und digital gearbeitet wird.
+      Hier sind die aktuellen Schülerprojekte im Überblick.
+    </p>
+  </header>
+
+  <main>
+    <section class="grid" aria-label="Projektübersicht">
+      <article class="project-card">
+        <span class="badge">Projekt 1</span>
+        <h2>Spielentwicklung & 3D-Druck</h2>
+        <p>
+          Drei Schüler entwickeln gemeinsam ein Spiel in einem Online-Programm auf einer Webseite.
+          Nach Abschluss wird das Projekt als 3D-Modell umgesetzt und ausgedruckt.
+        </p>
+      </article>
+
+      <article class="project-card">
+        <span class="badge">Projekt 2</span>
+        <h2>3D-Sonnensystem</h2>
+        <p>
+          Zwei Schüler haben in demselben Online-Programm ein 3D-Sonnensystem nachgebaut.
+          Die Planeten sind einzeln sichtbar und wurden als reales Modell 3D-gedruckt.
+        </p>
+      </article>
+
+      <article class="project-card">
+        <span class="badge">Projekt 3</span>
+        <h2>Flughafen Zürich als Holzmodell</h2>
+        <p>
+          Die dritte Gruppe rekonstruierte den Flughafen Zürich im Maßstab 1:1 als Holzmodell.
+          Mit Farben, Leim und weiteren Materialien entstand ein detailreiches Bauprojekt.
+        </p>
+      </article>
+
+      <article class="project-card">
+        <span class="badge">Projekt 4</span>
+        <h2>Big Ben & weitere Türme</h2>
+        <p>
+          Drei Teilnehmer bauten mit Karton, Toilettenrollen und Leim den Big Ben nach.
+          Zusätzlich gestalteten sie weitere Turm-Modelle mit denselben Materialien.
+        </p>
+      </article>
+
+      <article class="project-card">
+        <span class="badge">Projekt 5</span>
+        <h2>Altstadt von Sitten in Minecraft</h2>
+        <p>
+          Eine Schülergruppe hat die Altstadt von Sitten im Spiel Minecraft nachgebaut.
+          Auch mittelalterliche Türme wurden ergänzt und kreativ umgesetzt.
+        </p>
+      </article>
+
+      <article class="project-card">
+        <span class="badge">Projekt 6</span>
+        <h2>Jack-Daniel’s-Lampe</h2>
+        <p>
+          Zwei Mitglieder entwickelten eine kreative Lampe aus Holz, Farbe und einer Jack-Daniel’s-Flasche.
+          Das Ergebnis ist eine dekorative kleine Lampe mit Holzrahmen.
+        </p>
+      </article>
+
+      <article class="project-card">
+        <span class="badge">Projekt 7</span>
+        <h2>Kleine Hütte im Ölfass</h2>
+        <p>
+          Die letzten zwei Mitglieder bauten aus einem ca. 1000-Liter-Ölfass eine kleine Hütte.
+          Der Innenbereich wurde mit Holz gestaltet und ausgebaut.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    OS Naters · Technik- und Informatikgruppe
+  </footer>
+</body>
+</html>
